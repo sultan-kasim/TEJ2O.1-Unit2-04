@@ -8,14 +8,13 @@ basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 basic.pause(1000)
 
-
-
  // When A button is pressed the temapture whill be showm
 let Tempature: number
 
 input.onButtonPressed(Button.A, function() {
-    basic.clearScreen()
- basic.showString('The temperature is ' + input.temperature())
+basic.clearScreen()
+basic.showString('The temperature is ' + input.temperature())
+
 basic.clearScreen()
 basic.pause(1000)
 })
