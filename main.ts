@@ -10,7 +10,7 @@ basic.pause(1000)
 
 
  // When A button is pressed the temperature whill be showm
-
+ 
 input.onButtonPressed(Button.A, function() {
 basic.clearScreen()
 basic.showString('The temperature is ' + input.temperature())
